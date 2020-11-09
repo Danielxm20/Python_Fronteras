@@ -1,0 +1,29 @@
+body{
+    background-color: darkgrey;
+}
+
+p{
+    max-width: 350px;
+    background-color: darkgoldenrod;
+    margin: auto;
+    position: fixed;
+}
+
+#over{
+    width: 50px;
+    height: 50px;
+    overflow: auto;
+}
+
+img{
+    float: right;
+    opacity: 0.5;
+}
+
+img:hover{
+    opacity: 0.90;
+}
+
+div p{
+    color: aqua;
+}

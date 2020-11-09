@@ -1,0 +1,27 @@
+body {
+    background-color:#eeeeee;
+    
+}
+
+#parrafo{
+    color: brown;
+}
+
+.etiqueta{
+    color: green;
+}
+
+.caja{
+    margin: 8px;
+    padding: 8px;
+    border-style: outset;
+    border-width: 8px;
+    border-color: chartreuse;
+    border-top: 6px solid crimson;
+    border-bottom: 6px dotted chocolate;
+    border-radius: 5px;
+    height: 100px;
+    width: 100px;
+    color: sienna;
+    background-color: rebeccapurple;
+}

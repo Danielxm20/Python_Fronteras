@@ -1,0 +1,96 @@
+body{
+    background-color: cadetblue;
+}
+
+.fondo{    
+    background-image: linear-gradient(-45deg, red, blue, white, yellow); /* (direcciom en grados o direcciones, color1, color2)*/
+    /* height: 300px;
+    background-color: rgba(44, 56, 2, 0.4); */
+    /* background-color: hsl(hue, saturation, lightness); */
+    /* background: green url('http://placekitten.com/200/300') no-repeat left fixed; */
+    /* background-color: green; */
+    /* background-image: url("http://placekitten.com/200/300");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: fixed; */
+    /*background-size: cover;*/
+}
+
+.box{
+    background-color: white;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    margin: 10px 15px;
+    width: 200px;
+    padding: 10px 15px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.text{
+    color: white;
+    text-shadow: 1px 2px 3px rgba(255, 0, 0, 0.9);
+}
+
+.caja{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    transform: rotate(20deg); /*translate() mover, scale() aumentar escala*/
+    transform: skew(15deg, 20deg);
+}
+
+.caja:hover{
+    transform: scale(1.5, 1.5); /*hace que se vea a una escala de 1.5*/
+    
+}
+
+.caja2{
+    position: relative;
+    top: 50px;
+    left: 300px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    transition: 1s; /*Timepo que tardan las transiciones*/
+    transition-delay: 0.3s;
+
+}
+
+.caja2:hover{
+    width: 150px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.red{
+    border-left: solid 2px red;
+    
+
+}
+
+.red:hover{
+    transform: scale(1.1, 1.1);
+    
+}
+
+.blue{
+    border-left: solid 2px blue;      
+
+}
+
+.blue:hover{
+    background-color: #eef;
+}
+
+.green{
+    border-left: solid 2px green;
+      
+
+}
+
+.green:hover{
+    box-shadow: 0px 8px rgba(0, 0, 0, 0.3);
+}
